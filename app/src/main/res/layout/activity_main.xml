@@ -39,4 +39,15 @@
         android:layout_marginTop="30dp"
         />
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:id="@+id/btnGander"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
 </LinearLayout>
