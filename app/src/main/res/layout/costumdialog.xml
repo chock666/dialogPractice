@@ -13,20 +13,23 @@
 
         <RadioButton android:id="@+id/radio_male"
             android:layout_width="wrap_content"
+            android:checked="false"
             android:layout_height="wrap_content"
             android:text="male"
-            android:onClick="onRadioButtonClicked"/>
+           />
         <RadioButton android:id="@+id/radio_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="female"
-            android:onClick="onRadioButtonClicked"/>
+           />
 
     </RadioGroup>
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="confirm"
+        android:id="@+id/saveButton"
 
         />
 
